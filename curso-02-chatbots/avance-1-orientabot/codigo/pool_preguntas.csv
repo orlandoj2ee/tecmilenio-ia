@@ -1,0 +1,201 @@
+estudiante,estilo,tipo,pregunta,esperada,sucia,errores
+Mariana,"formal, revisa antes de enviar",horarios,"Disculpa, no me aparece mi horario!!",horarios,False,
+Mariana,"formal, revisa antes de enviar",ayuda,Menú,ayuda,False,
+Mariana,"formal, revisa antes de enviar",becas,"Oye, me quitaron la beca, ¿qué hago? gracias",becas,False,
+Mariana,"formal, revisa antes de enviar",dos_temas,Necesito una constancia y también inscribirme,constancias,False,
+Mariana,"formal, revisa antes de enviar",becas,"Disculp, ¿cuándo sale la convocatoria de becas?",becas,True,falta_letra
+Mariana,"formal, revisa antes de enviar",desconocida,"Disculpa, olvidé mi contraseña del portal",desconocida,False,
+Mariana,"formal, revisa antes de enviar",inscripcion,"Me quiero inscribir, ¿qué hago? gracias",inscripcion,False,
+Mariana,"formal, revisa antes de enviar",inscripcion,"Disculpa, ¿la reinscripción es en línea? por favor",inscripcion,False,
+Mariana,"formal, revisa antes de enviar",horarios,"Hola, ¿dónde consulto los horarios del grupo? por favor",horarios,False,
+Mariana,"formal, revisa antes de enviar",horarios,"Una pregunta, ¿ya salieron los horarios? por favor",horarios,False,
+Mariana,"formal, revisa antes de enviar",desconocida,"Oye, no puedo entrar a la plataforma!!",desconocida,False,
+Mariana,"formal, revisa antes de enviar",biblioteca,"Una pregunta, perdí un libro de la biblioteca",biblioteca,False,
+Mariana,"formal, revisa antes de enviar",desconocida,Quiero cambiarme de carrera,desconocida,False,
+Mariana,"formal, revisa antes de enviar",constancias,"Disculpa, quiero un comprobante de estudios por favor",constancias,False,
+Mariana,"formal, revisa antes de enviar",despedida,Hasta luego,despedida,False,
+Mariana,"formal, revisa antes de enviar",biblioteca,"Hola, ¿a qué hora abre la biblioteca?",biblioteca,False,
+Mariana,"formal, revisa antes de enviar",horarios,¿Las clases son presenciales?,horarios,False,
+Mariana,"formal, revisa antes de enviar",desconocida,"Hola, ¿hay servicio médico?",desconocida,False,
+Mariana,"formal, revisa antes de enviar",inscripcion,Quiero inscribirme al siguiente semestre por favor,inscripcion,False,
+Mariana,"formal, revisa antes de enviar",inscripcion,"Hola, quiero inscribirme al siguiente semestre por favor",inscripcion,False,
+Diego,"cuidadoso, frases completas",despedida,Hasta luego,despedida,False,
+Diego,"cuidadoso, frases completas",inscripcion,¿Dónde hago la inscripción? por favor,inscripcion,False,
+Diego,"cuidadoso, frases completas",inscripcion,"Una pregunta, ¿cuánto cuesta la inscripción? gracias",inscripcion,False,
+Diego,"cuidadoso, frases completas",desconocida,¿Cuándo son vacaciones?,desconocida,False,
+Diego,"cuidadoso, frases completas",ayuda,¿Qué puedes hacer?,ayuda,False,
+Diego,"cuidadoso, frases completas",biblioteca,¿Dónde está la biblioteca?!!,biblioteca,False,
+Diego,"cuidadoso, frases completas",horarios,"Disculpa, ¿dónde veo mi horario? por favor",horarios,False,
+Diego,"cuidadoso, frases completas",becas,necesito aopyo economico gracizs,becas,True,sin_acentos+letras_cambiadas+tecla_vecina
+Diego,"cuidadoso, frases completas",inscripcion,"Oye, ¿cuándo abren las inscripciones?!!",inscripcion,False,
+Diego,"cuidadoso, frases completas",dos_temas,"No quiero beca, quiero una constancia",constancias,False,
+Diego,"cuidadoso, frases completas",inscripcion,¿Cuánto cuesta la inscripción?,inscripcion,False,
+Diego,"cuidadoso, frases completas",desconocida,"Una pregunta, ¿qué clima hará mañana?!!",desconocida,False,
+Diego,"cuidadoso, frases completas",inscripcion,"Hol,a no sé cómo hacer mi reinscripción",inscripcion,True,letras_cambiadas
+Diego,"cuidadoso, frases completas",inscripcion,¿Qué documentos piden para la inscripción?,inscripcion,False,
+Diego,"cuidadoso, frases completas",agradecimiento,Gracias,agradecimiento,False,
+Diego,"cuidadoso, frases completas",horarios,¿Cuándo empiezan las clases?,horarios,False,
+Diego,"cuidadoso, frases completas",horarios,"Una pregunta, ¿las clases son presenciales?",horarios,False,
+Diego,"cuidadoso, frases completas",dos_temas,"Disculpa, ¿la biblioteca tiene horario en vacaciones?",biblioteca,False,
+Diego,"cuidadoso, frases completas",inscripcion,¿Qué documentos piden para la inscripción?!!,inscripcion,False,
+Diego,"cuidadoso, frases completas",biblioteca,¿A qué hora abre la biblioteca?,biblioteca,False,
+Sofía,"aspirante de nuevo ingreso, pregunta todo",biblioteca,"Disculpa, perdí un libro de la biblioteca",biblioteca,False,
+Sofía,"aspirante de nuevo ingreso, pregunta todo",horarios,Mi horario está mal!!,horarios,False,
+Sofía,"aspirante de nuevo ingreso, pregunta todo",inscripcion,"Una pregunta, perdí la fecha de inscripción, ¿todavía puedo?",inscripcion,False,
+Sofía,"aspirante de nuevo ingreso, pregunta todo",saludo,Buenas tardes,saludo,False,
+Sofía,"aspirante de nuevo ingreso, pregunta todo",despedida,aios,despedida,True,sin_acentos+falta_letra
+Sofía,"aspirante de nuevo ingreso, pregunta todo",horarios,"Una pregunta, ¿a qué hora son mis clases? por favor",horarios,False,
+Sofía,"aspirante de nuevo ingreso, pregunta todo",desconocida,"Disculp, no puedo entrar a la plataforma",desconocida,True,falta_letra
+Sofía,"aspirante de nuevo ingreso, pregunta todo",becas,"oye, necesito aopyo economico",becas,True,sin_acentos+letras_cambiadas
+Sofía,"aspirante de nuevo ingreso, pregunta todo",horarios,¿Ya salieron los horarios? gracias,horarios,False,
+Sofía,"aspirante de nuevo ingreso, pregunta todo",becas,"Disculpa, ¿puedo renovar mi beca?!!",becas,False,
+Sofía,"aspirante de nuevo ingreso, pregunta todo",becas,"Hola, ¿cuándo sale la convocatoria de becas?",becas,False,
+Sofía,"aspirante de nuevo ingreso, pregunta todo",constancias,"Oye, ¿cuánto tarda la constancia?",constancias,False,
+Sofía,"aspirante de nuevo ingreso, pregunta todo",becas,"Hola, me quitaron la beca, ¿qué hago? por favor",becas,False,
+Sofía,"aspirante de nuevo ingreso, pregunta todo",saludo,"Hola, buen día",saludo,False,
+Sofía,"aspirante de nuevo ingreso, pregunta todo",inscripcion,¿Hasa cuándo hay inscripciones?!!,inscripcion,True,falta_letra
+Sofía,"aspirante de nuevo ingreso, pregunta todo",inscripcion,"Hola, ¿hasta cuándo hay inscripciones?",inscripcion,False,
+Sofía,"aspirante de nuevo ingreso, pregunta todo",despedida,Hasta luego,despedida,False,
+Sofía,"aspirante de nuevo ingreso, pregunta todo",dos_temas,"Hola, ¿dónde veo mi horario y dónde está Control Escolar?",horarios,False,
+Sofía,"aspirante de nuevo ingreso, pregunta todo",inscripcion,¿Hasta cuándo hay inscripciones?!!,inscripcion,False,
+Sofía,"aspirante de nuevo ingreso, pregunta todo",constancias,Ocupo una constancia para el IMSS,constancias,False,
+Andrés,"directo, pocas palabras",becas,¿Qué promedio piden para la beca? gracias,becas,False,
+Andrés,"directo, pocas palabras",inscripcion,¿Hasta cuándo hay inscripciones?,inscripcion,False,
+Andrés,"directo, pocas palabras",despedida,Salir,despedida,False,
+Andrés,"directo, pocas palabras",control_escolar,"Oye, ¿a qué hora atiende Control Escolar? gracias",control_escolar,False,
+Andrés,"directo, pocas palabras",desconocida,"oye, olvide mi contrasdna del portal graias",desconocida,True,sin_acentos+tecla_vecina+falta_letra
+Andrés,"directo, pocas palabras",constancias,"Una pregunta, ¿cómo saco una constancia?",constancias,False,
+Andrés,"directo, pocas palabras",becas,¿Puedo renovar mi beca? por favor,becas,False,
+Andrés,"directo, pocas palabras",inscripcion,¿Qué documentos piden para la inscripción?,inscripcion,False,
+Andrés,"directo, pocas palabras",inscripcion,"Una pregunta, ¿dónde hago la inscripción?!!",inscripcion,False,
+Andrés,"directo, pocas palabras",control_escolar,"Disculpa, ¿control escolar tiene correo?",control_escolar,False,
+Andrés,"directo, pocas palabras",saludo,Hola,saludo,False,
+Andrés,"directo, pocas palabras",control_escolar,"Oye, ¿cuál es el teléfono de Servicios Escolares? gracias",control_escolar,False,
+Andrés,"directo, pocas palabras",horarios,"Oye, ¿cuándo empiezan las clases? por favor",horarios,False,
+Andrés,"directo, pocas palabras",constancias,"Disculpa, quiero un comprobante de estudios por favor",constancias,False,
+Andrés,"directo, pocas palabras",biblioteca,prdi un libro de la biblioteca!!,biblioteca,True,sin_acentos+falta_letra
+Andrés,"directo, pocas palabras",horarios,"hoal, no me apareece mi horario",horarios,True,sin_acentos+letras_cambiadas+sobra_letra
+Andrés,"directo, pocas palabras",becas,¿Puedo renovar mi beca?,becas,False,
+Andrés,"directo, pocas palabras",constancias,"Hola, necesito una constancia de estudios",constancias,False,
+Andrés,"directo, pocas palabras",horarios,No me aparece mi horario!!,horarios,False,
+Andrés,"directo, pocas palabras",dos_temas,"Disculpa, quiero saber de becas y horarios",becas,False,
+Valeria,escribe rápido entre clases,constancias,"Oye, ¿cómo saco una constancia?",constancias,False,
+Valeria,escribe rápido entre clases,desconocida,"Disculpa, ¿cuándo es la graduación? gracias",desconocida,False,
+Valeria,escribe rápido entre clases,becas,"Disculpa, no tengo beca pero la necesito!!",becas,False,
+Valeria,escribe rápido entre clases,desconocida,"Hola, no puedo entrar a la plataforma gracias",desconocida,False,
+Valeria,escribe rápido entre clases,saludo,Buenos días,saludo,False,
+Valeria,escribe rápido entre clases,inscripcion,"Oye, me quiero inscribir, ¿qué hago?",inscripcion,False,
+Valeria,escribe rápido entre clases,inscripcion,"Perdí la fecha de inscripción, ¿todavía puedo? gracias",inscripcion,False,
+Valeria,escribe rápido entre clases,desconocida,hay estcaionamiento? xfa,desconocida,True,sin_acentos+abreviatura+letras_cambiadas
+Valeria,escribe rápido entre clases,desconocida,"oye, hay estacionamienti?!!",desconocida,True,sin_acentos+tecla_vecina
+Valeria,escribe rápido entre clases,control_escolar,"Oye, necesito hablar con Control Escolar gracias",control_escolar,False,
+Valeria,escribe rápido entre clases,horarios,"Hola, ¿dónde veo mi horario? gracias",horarios,False,
+Valeria,escribe rápido entre clases,constancias,Necesito una constancia de estudios,constancias,False,
+Valeria,escribe rápido entre clases,saludo,Hey,saludo,False,
+Valeria,escribe rápido entre clases,becas,"oye, cuando sale la conbocatoria de beccas?",becas,True,sin_acentos+sobra_letra+tecla_vecina
+Valeria,escribe rápido entre clases,agradecimiento,graccias,agradecimiento,True,sin_acentos+sobra_letra
+Valeria,escribe rápido entre clases,horarios,¿Cuándo empiezan las clases? por favor,horarios,False,
+Valeria,escribe rápido entre clases,inscripcion,dlnde hqgo la inscripcion? xfa,inscripcion,True,sin_acentos+abreviatura+tecla_vecina+tecla_vecina
+Valeria,escribe rápido entre clases,ayuda,Ayuda,ayuda,False,
+Valeria,escribe rápido entre clases,becas,Necesito apoyo económico,becas,False,
+Valeria,escribe rápido entre clases,horarios,"Disculpa, ¿ya salieron los horarios?",horarios,False,
+Luis,"desde el celular, sin acentos",control_escolar,"Hola, ¿a qué hofa atiende Control Escolar?",control_escolar,True,tecla_vecina
+Luis,"desde el celular, sin acentos",inscripcion,¿Cómo puedo inscribirme? gracias,inscripcion,False,
+Luis,"desde el celular, sin acentos",inscripcion,"oye, done hago la inscripcion?!!",inscripcion,True,sin_acentos+falta_letra
+Luis,"desde el celular, sin acentos",control_escolar,"Hola, ¿control escolar tiene correo?",control_escolar,False,
+Luis,"desde el celular, sin acentos",becas,¿Hay becas? gracias,becas,False,
+Luis,"desde el celular, sin acentos",becas,"Me quitaron la beca, ¿qué hago? gracias",becas,False,
+Luis,"desde el celular, sin acentos",desconocida,"Hola, ¿cómo pago la colegiatura? por favor",desconocida,False,
+Luis,"desde el celular, sin acentos",desconocida,"Oye, olvidé mi contraseña del portal",desconocida,False,
+Luis,"desde el celular, sin acentos",dos_temas,"Una pregunta, ocupo inscribirme y saber si hay becas",inscripcion,False,
+Luis,"desde el celular, sin acentos",desconocida,"Disculpa, quiero cambiarme de carrra!!",desconocida,True,falta_letra
+Luis,"desde el celular, sin acentos",control_escolar,"Hola, ¿a qué hora atiende Control Escolar?",control_escolar,False,
+Luis,"desde el celular, sin acentos",desconocida,olvide mi contrasena del poortal por favor,desconocida,True,sin_acentos+sobra_letra
+Luis,"desde el celular, sin acentos",inscripcion,No sé cómo hqcer mi reinscripdión xfa,inscripcion,True,abreviatura+tecla_vecina+tecla_vecina
+Luis,"desde el celular, sin acentos",horarios,"Oye, tengo un empalme en mi horario gracias",horarios,False,
+Luis,"desde el celular, sin acentos",biblioteca,"Oye, perdí un libro de la biblioteca!!",biblioteca,False,
+Luis,"desde el celular, sin acentos",desconocida,"hola, cuando son vacacioones?",desconocida,True,sin_acentos+sobra_letra
+Luis,"desde el celular, sin acentos",saludo,Buenas noches,saludo,False,
+Luis,"desde el celular, sin acentos",desconocida,"Una pregunta, no peudo entrar a la plataforma grax",desconocida,True,abreviatura+letras_cambiadas
+Luis,"desde el celular, sin acentos",desconocida,¿Cómo me doy de baja?!!,desconocida,False,
+Luis,"desde el celular, sin acentos",inscripcion,cuanto cuetsa la incsripcion?,inscripcion,True,sin_acentos+letras_cambiadas+letras_cambiadas
+Fernanda,"informal, usa abreviaturas",constancias,ocupo una constancia pa el imsss,constancias,True,sin_acentos+abreviatura+sobra_letra
+Fernanda,"informal, usa abreviaturas",constancias,Necesito constancia con calificaciones,constancias,False,
+Fernanda,"informal, usa abreviaturas",inscripcion,"Oye, me quuiero inscribir, ¿qué hago? xfa",inscripcion,True,abreviatura+sobra_letra
+Fernanda,"informal, usa abreviaturas",constancias,Necesito constancia con calificaciones gracias,constancias,False,
+Fernanda,"informal, usa abreviaturas",biblioteca,Quiero pedir libros,biblioteca,False,
+Fernanda,"informal, usa abreviaturas",desconocida,¿Dóndde esttá la cafetería?,desconocida,True,sobra_letra+sobra_letra
+Fernanda,"informal, usa abreviaturas",constancias,"Disculpa, ¿dóbde pido constancias? grax",constancias,True,abreviatura+tecla_vecina
+Fernanda,"informal, usa abreviaturas",horarios,no me aparece mi hroario graias,horarios,True,sin_acentos+letras_cambiadas+falta_letra
+Fernanda,"informal, usa abreviaturas",horarios,donde cnosulto los horarios del grupo?!!!,horarios,True,sin_acentos+letras_cambiadas+sobra_letra
+Fernanda,"informal, usa abreviaturas",constancias,"hola, done piido constancias?",constancias,True,sin_acentos+sobra_letra+falta_letra
+Fernanda,"informal, usa abreviaturas",constancias,¿La constancia tiene costo? gracias,constancias,False,
+Fernanda,"informal, usa abreviaturas",inscripcion,"me qiuero inscribir, q hago? gracias",inscripcion,True,sin_acentos+abreviatura+letras_cambiadas
+Fernanda,"informal, usa abreviaturas",constancias,"Hola, necesito una constancia de estudios!!",constancias,False,
+Fernanda,"informal, usa abreviaturas",becas,"Hola, ¿hay becas?",becas,False,
+Fernanda,"informal, usa abreviaturas",dos_temas,"oye, la bibliotea tiene horario en vacaciones?",biblioteca,True,sin_acentos+falta_letra
+Fernanda,"informal, usa abreviaturas",despedida,Bye,despedida,False,
+Fernanda,"informal, usa abreviaturas",inscripcion,"Una pegunta, ¿dónde hago la inscrpción? por favor",inscripcion,True,falta_letra+falta_letra
+Fernanda,"informal, usa abreviaturas",control_escolar,"Hola, ¿dónde está Control Escolar? por favor",control_escolar,False,
+Fernanda,"informal, usa abreviaturas",saludo,Hola,saludo,False,
+Fernanda,"informal, usa abreviaturas",constancias,"oye, necestio consancia con calificaciones",constancias,True,sin_acentos+falta_letra+letras_cambiadas
+Jorge,"trabaja y estudia, siempre con prisa",horarios,"oye, quiero cambiar mi hoario!!",horarios,True,sin_acentos+falta_letra
+Jorge,"trabaja y estudia, siempre con prisa",agradecimiento,Gracias,agradecimiento,False,
+Jorge,"trabaja y estudia, siempre con prisa",inscripcion,cuando abren las inscrpciones?,inscripcion,True,sin_acentos+falta_letra
+Jorge,"trabaja y estudia, siempre con prisa",horarios,"Hola, tengo un empalme en mi horario por favor",horarios,False,
+Jorge,"trabaja y estudia, siempre con prisa",constancias,"oye, quiro un comproobante de estudios gracias",constancias,True,sin_acentos+sobra_letra+falta_letra
+Jorge,"trabaja y estudia, siempre con prisa",constancias,necessito una constancia de estudios!!,constancias,True,sin_acentos+sobra_letra
+Jorge,"trabaja y estudia, siempre con prisa",desconocida,¿Cómo me doy de baja? gracias,desconocida,False,
+Jorge,"trabaja y estudia, siempre con prisa",inscripcion,"Oye, ¿dónde hago la inscripción?",inscripcion,False,
+Jorge,"trabaja y estudia, siempre con prisa",constancias,"Disculpa, quiero un compprobante de estuddios xfa",constancias,True,abreviatura+sobra_letra+sobra_letra
+Jorge,"trabaja y estudia, siempre con prisa",inscripcion,¿Cómo puedo inscribirme? gracias,inscripcion,False,
+Jorge,"trabaja y estudia, siempre con prisa",desconocida,"Hola, ¿cómo me doy de baja?",desconocida,False,
+Jorge,"trabaja y estudia, siempre con prisa",becas,No tengo beca pero la necesito gracias,becas,False,
+Jorge,"trabaja y estudia, siempre con prisa",inscripcion,"Una pregunta, ¿cómo pueedo inscribirme?",inscripcion,True,sobra_letra
+Jorge,"trabaja y estudia, siempre con prisa",horarios,"Hola, ¿ya salieron los horarios?",horarios,False,
+Jorge,"trabaja y estudia, siempre con prisa",constancias,¿La constancia tiene costo?!!,constancias,False,
+Jorge,"trabaja y estudia, siempre con prisa",constancias,"hola, necesiyo constancia con calificaciones gracias",constancias,True,sin_acentos+tecla_vecina
+Jorge,"trabaja y estudia, siempre con prisa",inscripcion,"Hola, ¿cuándo abren las inscripciones?!!",inscripcion,False,
+Jorge,"trabaja y estudia, siempre con prisa",constancias,"Oye, ¿cómo saco una constancia?",constancias,False,
+Jorge,"trabaja y estudia, siempre con prisa",control_escolar,¿Dónde está Control Escolar?,control_escolar,False,
+Jorge,"trabaja y estudia, siempre con prisa",dos_temas,donde veo mi hofario y donde esta control escoalr?,horarios,True,sin_acentos+tecla_vecina+letras_cambiadas
+Camila,"escribe con el pulgar, muchos dedazos",constancias,"Disuclpa, neecesito constancia con calificaciones",constancias,True,letras_cambiadas+sobra_letra
+Camila,"escribe con el pulgar, muchos dedazos",control_escolar,"Disculpa, ¿a qué hora atiende Control Escolar?",control_escolar,False,
+Camila,"escribe con el pulgar, muchos dedazos",inscripcion,"una preegunta, donde hago la inscripcion?",inscripcion,True,sin_acentos+sobra_letra
+Camila,"escribe con el pulgar, muchos dedazos",biblioteca,¿Dónde esá la biblioteca? gfax,biblioteca,True,abreviatura+tecla_vecina+falta_letra
+Camila,"escribe con el pulgar, muchos dedazos",constancias,"disculpa, koero un comprobahte de estudios",constancias,True,sin_acentos+abreviatura+tecla_vecina+tecla_vecina
+Camila,"escribe con el pulgar, muchos dedazos",ayuda,Menú,ayuda,False,
+Camila,"escribe con el pulgar, muchos dedazos",inscripcion,¿Cuándo abren las inscripciones?,inscripcion,False,
+Camila,"escribe con el pulgar, muchos dedazos",inscripcion,¿Qué necesito para la reinscripción?,inscripcion,False,
+Camila,"escribe con el pulgar, muchos dedazos",horarios,"Disculpa, ¿cuándo empiezan las clases? gracias",horarios,False,
+Camila,"escribe con el pulgar, muchos dedazos",agradecimiento,Muchas grracias,agradecimiento,True,sobra_letra
+Camila,"escribe con el pulgar, muchos dedazos",becas,¿Cómo solicito una beca?,becas,False,
+Camila,"escribe con el pulgar, muchos dedazos",horarios,"Hoa, tengo un empalme en mi horariio grax",horarios,True,abreviatura+falta_letra+sobra_letra
+Camila,"escribe con el pulgar, muchos dedazos",becas,"me quitron la becz, que hago?!!",becas,True,sin_acentos+tecla_vecina+falta_letra
+Camila,"escribe con el pulgar, muchos dedazos",dos_temas,"Oye, ¿la bilbioteca tiene horario en vacaciones?",biblioteca,True,letras_cambiadas
+Camila,"escribe con el pulgar, muchos dedazos",biblioteca,¿Dónde está la bibliotrca? por favro,biblioteca,True,letras_cambiadas+tecla_vecina
+Camila,"escribe con el pulgar, muchos dedazos",horarios,"oye, mi horario eta mal",horarios,True,sin_acentos+falta_letra
+Camila,"escribe con el pulgar, muchos dedazos",saludo,Buenas noches,saludo,False,
+Camila,"escribe con el pulgar, muchos dedazos",dos_temas,la bibluoteca tiene horario en vacaciones?,biblioteca,True,sin_acentos+tecla_vecina
+Camila,"escribe con el pulgar, muchos dedazos",agradecimiento,gracisa por la info,agradecimiento,True,sin_acentos+letras_cambiadas
+Camila,"escribe con el pulgar, muchos dedazos",desconocida,¿Hay estacionamiento?,desconocida,False,
+Kevin,"no revisa nada, puro dedazo",horarios,Mi horario está mal,horarios,False,
+Kevin,"no revisa nada, puro dedazo",horarios,a que hra son mis clases? gracias,horarios,True,sin_acentos+falta_letra
+Kevin,"no revisa nada, puro dedazo",inscripcion,"disculpa, kiero inscribirme al siguiente srmestre",inscripcion,True,sin_acentos+abreviatura+tecla_vecina
+Kevin,"no revisa nada, puro dedazo",inscripcion,"hol, me quiero inscribie, que hago?",inscripcion,True,sin_acentos+falta_letra+tecla_vecina
+Kevin,"no revisa nada, puro dedazo",inscripcion,"hla, me quiero inscribir, que hago? por favor",inscripcion,True,sin_acentos+falta_letra
+Kevin,"no revisa nada, puro dedazo",becas,Necesito apoo económico,becas,True,falta_letra
+Kevin,"no revisa nada, puro dedazo",agradecimiento,"ok, graciias",agradecimiento,True,sin_acentos+sobra_letra
+Kevin,"no revisa nada, puro dedazo",inscripcion,"Oye, quiero inscribirme al siguiente semestre",inscripcion,False,
+Kevin,"no revisa nada, puro dedazo",desconocida,"oye, no pueddo entrar a la plataforma!!",desconocida,True,sin_acentos+sobra_letra
+Kevin,"no revisa nada, puro dedazo",biblioteca,quiero pedir lbros,biblioteca,True,sin_acentos+falta_letra
+Kevin,"no revisa nada, puro dedazo",inscripcion,"Perí la fecha de inscrioción, ¿todavía puedo? por favor",inscripcion,True,falta_letra+tecla_vecina
+Kevin,"no revisa nada, puro dedazo",ayuda,auda,ayuda,True,sin_acentos+falta_letra
+Kevin,"no revisa nada, puro dedazo",inscripcion,¿La reinscripción es en línea? por favor,inscripcion,False,
+Kevin,"no revisa nada, puro dedazo",horarios,"discula, mi hoario esta mal!!",horarios,True,sin_acentos+falta_letra+falta_letra
+Kevin,"no revisa nada, puro dedazo",horarios,cjando empiezan las clases?,horarios,True,sin_acentos+tecla_vecina
+Kevin,"no revisa nada, puro dedazo",horarios,las clzses son persenciales? xfa,horarios,True,sin_acentos+abreviatura+letras_cambiadas+tecla_vecina
+Kevin,"no revisa nada, puro dedazo",ayuda,¿Qué puedes hacre?,ayuda,True,letras_cambiadas
+Kevin,"no revisa nada, puro dedazo",inscripcion,que documentos piden praa la inscripcion?,inscripcion,True,sin_acentos+letras_cambiadas
+Kevin,"no revisa nada, puro dedazo",inscripcion,"disculpa, donde hao la inscripcion?",inscripcion,True,sin_acentos+falta_letra
+Kevin,"no revisa nada, puro dedazo",biblioteca,Quiero pedir libros por favor,biblioteca,False,

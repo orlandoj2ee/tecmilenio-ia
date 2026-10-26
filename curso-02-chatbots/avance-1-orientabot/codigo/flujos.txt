@@ -1,0 +1,206 @@
+=== Flujo 01 · EXITOSO · ✅ ===
+  Pregunta documentos antes de decir que es de nuevo ingreso; el bot lo recuerda
+  Sofía: Hola
+  OrientaBot: ¡Hola! Soy OrientaBot. Consulta sobre inscripciones, horarios, becas, constancias o biblioteca.   [saludo · None]
+  Sofía: quiero inscribirme
+  OrientaBot: Con gusto. ¿Eres de nuevo ingreso o vas a reinscribirte?   [inscripcion · inscripcion]
+  Sofía: ¿qué documentos necesito?
+  OrientaBot: Para orientarte mejor: ¿Eres de nuevo ingreso o vas a reinscribirte?   [inscripcion · inscripcion]
+  Sofía: soy de nuevo ingreso
+  OrientaBot: Los documentos de nuevo ingreso vienen en la convocatoria vigente. Control Escolar te confirma la lista oficial.   [inscripcion · ni_documentos]
+  Sofía: gracias
+  OrientaBot: ¡De nada! ¿Necesitas orientación sobre otro tema?   [agradecimiento · None]
+
+=== Flujo 02 · EXITOSO · ✅ ===
+  La fecha va en la primera pregunta; se usa al aclarar que es nuevo
+  Diego: Buenas tardes
+  OrientaBot: ¡Hola! Soy OrientaBot. Consulta sobre inscripciones, horarios, becas, constancias o biblioteca.   [saludo · None]
+  Diego: ¿Cuándo abren las inscripciones?
+  OrientaBot: Con gusto. ¿Eres de nuevo ingreso o vas a reinscribirte?   [inscripcion · inscripcion]
+  Diego: es mi primera vez
+  OrientaBot: Las fechas de nuevo ingreso se publican en la convocatoria del sitio oficial.   [inscripcion · ni_fechas]
+  Diego: Muchas gracias
+  OrientaBot: ¡De nada! ¿Necesitas orientación sobre otro tema?   [agradecimiento · None]
+
+=== Flujo 03 · EXITOSO · ✅ ===
+  Todo en un solo mensaje: baja dos niveles de golpe
+  Andrés: Me toca reinscripción y quiero saber de pagos
+  OrientaBot: El monto y la forma de pago de la reinscripción los informa Control Escolar o el portal de pagos institucional.   [inscripcion · re_pagos]
+  Andrés: gracias
+  OrientaBot: ¡De nada! ¿Necesitas orientación sobre otro tema?   [agradecimiento · None]
+  Andrés: adiós
+  OrientaBot: ¡Hasta luego! Gracias por consultar OrientaBot.   [despedida · None]
+
+=== Flujo 04 · EXITOSO · ✅ ===
+  Recorre el árbol paso a paso, un nivel por mensaje
+  Valeria: inscripción
+  OrientaBot: Con gusto. ¿Eres de nuevo ingreso o vas a reinscribirte?   [inscripcion · inscripcion]
+  Valeria: ya estudio aquí, voy al siguiente semestre
+  OrientaBot: Reinscripción. ¿Tu duda es sobre pagos o sobre materias?   [inscripcion · reinscripcion]
+  Valeria: es por las materias
+  OrientaBot: La selección de materias se hace en el sistema escolar. Si tienes adeudos o empalmes, contacta a Control Escolar.   [inscripcion · re_materias]
+  Valeria: ok gracias
+  OrientaBot: ¡De nada! ¿Necesitas orientación sobre otro tema?   [agradecimiento · None]
+
+=== Flujo 05 · EXITOSO · ✅ ===
+  Flujo formal completo: saludo, beca nueva, requisitos, cierre
+  Mariana: Hola
+  OrientaBot: ¡Hola! Soy OrientaBot. Consulta sobre inscripciones, horarios, becas, constancias o biblioteca.   [saludo · None]
+  Mariana: ¿Cómo solicito una beca?
+  OrientaBot: Con gusto. Solicitud nueva. ¿Quieres conocer los requisitos o las fechas de la convocatoria?   [becas · becas_solicitar]
+  Mariana: Los requisitos, por favor
+  OrientaBot: Los requisitos de cada beca vienen en su convocatoria. El área de Becas te orienta sobre cuál te conviene.   [becas · be_requisitos]
+  Mariana: Gracias
+  OrientaBot: ¡De nada! ¿Necesitas orientación sobre otro tema?   [agradecimiento · None]
+  Mariana: Adiós
+  OrientaBot: ¡Hasta luego! Gracias por consultar OrientaBot.   [despedida · None]
+
+=== Flujo 06 · EXITOSO · ✅ ===
+  Sin acentos ni signos, desde el celular
+  Luis: necesito una beca
+  OrientaBot: Con gusto. Solicitud nueva. ¿Quieres conocer los requisitos o las fechas de la convocatoria?   [becas · becas_solicitar]
+  Luis: cuando sale la convocatoria
+  OrientaBot: Las convocatorias de becas se publican en el sitio oficial; revisa ahí los plazos.   [becas · be_fechas]
+  Luis: gracias
+  OrientaBot: ¡De nada! ¿Necesitas orientación sobre otro tema?   [agradecimiento · None]
+
+=== Flujo 07 · EXITOSO · ✅ ===
+  Beca perdida en un mensaje y luego cambia a horarios
+  Jorge: Me quitaron la beca
+  OrientaBot: Si perdiste tu beca, acude al área de Becas: te explican la causa y si puedes apelar o volver a solicitarla en la siguiente convocatoria.   [becas · be_perdida]
+  Jorge: ¿y dónde veo mi horario?
+  OrientaBot: Consulta tu horario en el sistema escolar institucional. Si existe algún problema con tu grupo o materia, contacta a Control Escolar.   [horarios · None]
+  Jorge: hasta luego
+  OrientaBot: ¡Hasta luego! Gracias por consultar OrientaBot.   [despedida · None]
+
+=== Flujo 08 · EXITOSO · ✅ ===
+  Renovación de beca: le preocupa el promedio
+  Camila: quiero renovar mi beca
+  OrientaBot: Con gusto. Renovación. ¿Tu duda es sobre documentos o sobre el promedio que piden?   [becas · becas_renovar]
+  Camila: ¿qué promedio piden?
+  OrientaBot: El promedio mínimo para conservar la beca lo fija el reglamento de Becas. Si estás en riesgo, consúltalo con el área antes del cierre de periodo.   [becas · be_ren_promedio]
+  Camila: gracias
+  OrientaBot: ¡De nada! ¿Necesitas orientación sobre otro tema?   [agradecimiento · None]
+
+=== Flujo 09 · EXITOSO · ✅ ===
+  Informal y con abreviaturas, pero las palabras clave pasan
+  Fernanda: beca
+  OrientaBot: Con gusto. ¿Quieres solicitar una beca, renovar la que tienes, o la perdiste?   [becas · becas]
+  Fernanda: renovarla
+  OrientaBot: Renovación. ¿Tu duda es sobre documentos o sobre el promedio que piden?   [becas · becas_renovar]
+  Fernanda: q papeles ocupo
+  OrientaBot: Los documentos para renovar vienen en la convocatoria de renovación. El área de Becas te confirma la lista.   [becas · be_ren_documentos]
+  Fernanda: grax
+  OrientaBot: No identifiqué tu consulta. Intenta mencionar inscripciones, horarios, becas, constancias, Control Escolar o biblioteca.   [desconocida · None]
+
+=== Flujo 10 · EXITOSO · ✅ ===
+  Constancia con calificaciones: costo
+  Diego: Necesito una constancia
+  OrientaBot: Con gusto. ¿La necesitas de estudios (simple) o con calificaciones?   [constancias · constancias]
+  Diego: con calificaciones
+  OrientaBot: Con calificaciones. ¿Quieres saber cómo pedirla o cuánto cuesta y tarda?   [constancias · const_calificaciones]
+  Diego: ¿cuánto cuesta?
+  OrientaBot: El costo y el tiempo de entrega de la constancia con calificaciones los informa Control Escolar.   [constancias · co_cal_costo]
+  Diego: Gracias
+  OrientaBot: ¡De nada! ¿Necesitas orientación sobre otro tema?   [agradecimiento · None]
+
+=== Flujo 11 · EXITOSO · ✅ ===
+  El IMSS delata que es constancia de estudios
+  Sofía: Ocupo una constancia para el IMSS
+  OrientaBot: Con gusto. De estudios. ¿Quieres saber cómo pedirla o cuánto cuesta y tarda?   [constancias · const_estudios]
+  Sofía: ¿cómo la pido?
+  OrientaBot: La constancia de estudios se solicita en Control Escolar o en el portal de trámites, si tu institución lo tiene.   [constancias · co_est_tramite]
+
+=== Flujo 12 · EXITOSO · ✅ ===
+  Dos árboles seguidos: constancia y luego biblioteca
+  Andrés: constancia de estudios, ¿cuánto tarda?
+  OrientaBot: El costo y el tiempo de entrega de la constancia de estudios los informa Control Escolar.   [constancias · co_est_costo]
+  Andrés: también perdí un libro de la biblioteca
+  OrientaBot: Si perdiste o dañaste un libro, repórtalo en el mostrador de la Biblioteca: te indican cómo reponerlo.   [biblioteca · bi_perdida]
+  Andrés: gracias
+  OrientaBot: ¡De nada! ¿Necesitas orientación sobre otro tema?   [agradecimiento · None]
+
+=== Flujo 13 · EXITOSO · ✅ ===
+  Renovar un préstamo: gana renovación por el orden de las opciones
+  Valeria: ¿Puedo renovar el préstamo de un libro?
+  OrientaBot: Las renovaciones se hacen en el mostrador de la Biblioteca o en su catálogo en línea, antes de la fecha de vencimiento.   [biblioteca · bi_renovacion]
+  Valeria: gracias
+  OrientaBot: ¡De nada! ¿Necesitas orientación sobre otro tema?   [agradecimiento · None]
+
+=== Flujo 14 · EXITOSO · ✅ ===
+  Empieza en inscripción y se cambia de árbol a biblioteca
+  Kevin: quiero inscribirme
+  OrientaBot: Con gusto. ¿Eres de nuevo ingreso o vas a reinscribirte?   [inscripcion · inscripcion]
+  Kevin: mejor dime de la biblioteca
+  OrientaBot: Con gusto. ¿Es sobre un préstamo, una renovación, o un libro perdido o dañado?   [biblioteca · biblioteca]
+  Kevin: un prestamo
+  OrientaBot: Para un préstamo acude al mostrador de la Biblioteca con tu credencial vigente.   [biblioteca · bi_prestamo]
+  Kevin: gracias
+  OrientaBot: ¡De nada! ¿Necesitas orientación sobre otro tema?   [agradecimiento · None]
+
+=== Flujo 15 · FALLIDO · Abandono · ✅ ===
+  Entra al árbol, contesta «ok» y se va sin elegir rama
+  Kevin: quiero inscribirme
+  OrientaBot: Con gusto. ¿Eres de nuevo ingreso o vas a reinscribirte?   [inscripcion · inscripcion]
+  Kevin: ok
+  OrientaBot: Para orientarte mejor: ¿Eres de nuevo ingreso o vas a reinscribirte?   [inscripcion · inscripcion]
+
+=== Flujo 16 · FALLIDO · Dedazo dentro del árbol · ✅ ===
+  «requsitos» no coincide con el patrón; el bot repite la pregunta hasta que ella se rinde
+  Camila: necesito una beca
+  OrientaBot: Con gusto. Solicitud nueva. ¿Quieres conocer los requisitos o las fechas de la convocatoria?   [becas · becas_solicitar]
+  Camila: los requsitos
+  OrientaBot: Para orientarte mejor: Solicitud nueva. ¿Quieres conocer los requisitos o las fechas de la convocatoria?   [becas · becas_solicitar]
+  Camila: requsitos xfa
+  OrientaBot: Para orientarte mejor: Solicitud nueva. ¿Quieres conocer los requisitos o las fechas de la convocatoria?   [becas · becas_solicitar]
+  Camila: olvidalo
+  OrientaBot: Para orientarte mejor: Solicitud nueva. ¿Quieres conocer los requisitos o las fechas de la convocatoria?   [becas · becas_solicitar]
+
+=== Flujo 17 · FALLIDO · Dedazo al entrar · ✅ ===
+  Ni «kiero inscirbirme» ni «inscirpcion» activan la regla: cae dos veces en el fallback
+  Jorge: kiero inscirbirme
+  OrientaBot: No identifiqué tu consulta. Intenta mencionar inscripciones, horarios, becas, constancias, Control Escolar o biblioteca.   [desconocida · None]
+  Jorge: inscirpcion
+  OrientaBot: No identifiqué tu consulta. Intenta mencionar inscripciones, horarios, becas, constancias, Control Escolar o biblioteca.   [desconocida · None]
+  Jorge: bye
+  OrientaBot: No identifiqué tu consulta. Intenta mencionar inscripciones, horarios, becas, constancias, Control Escolar o biblioteca.   [desconocida · None]
+
+=== Flujo 18 · FALLIDO · El saludo se come la consulta · ✅ ===
+  «Hola, necesito una constancia» cae en saludo; nunca entra al árbol
+  Luis: Hola, necesito una constancia
+  OrientaBot: ¡Hola! Soy OrientaBot. Consulta sobre inscripciones, horarios, becas, constancias o biblioteca.   [saludo · None]
+  Luis: ok
+  OrientaBot: No identifiqué tu consulta. Intenta mencionar inscripciones, horarios, becas, constancias, Control Escolar o biblioteca.   [desconocida · None]
+
+=== Flujo 19 · FALLIDO · Respuesta fuera de las opciones · ✅ ===
+  Contesta con algo que el nodo no prevé (la visa) y no sabe nombrar el tipo
+  Fernanda: constancias
+  OrientaBot: Con gusto. ¿La necesitas de estudios (simple) o con calificaciones?   [constancias · constancias]
+  Fernanda: la que piden para la visa
+  OrientaBot: Para orientarte mejor: ¿La necesitas de estudios (simple) o con calificaciones?   [constancias · constancias]
+  Fernanda: no se cual
+  OrientaBot: Para orientarte mejor: ¿La necesitas de estudios (simple) o con calificaciones?   [constancias · constancias]
+  Fernanda: ya vere
+  OrientaBot: Para orientarte mejor: ¿La necesitas de estudios (simple) o con calificaciones?   [constancias · constancias]
+
+=== Flujo 20 · FALLIDO · Vocabulario no previsto · ✅ ===
+  «Me quiero inscribir» no está en el patrón (solo «inscribirme»); se va al menú y desiste
+  Mariana: Me quiero inscribir
+  OrientaBot: No identifiqué tu consulta. Intenta mencionar inscripciones, horarios, becas, constancias, Control Escolar o biblioteca.   [desconocida · None]
+  Mariana: ¿Qué puedes hacer?
+  OrientaBot: Temas disponibles: inscripciones, horarios, becas, constancias, Control Escolar y biblioteca. Escribe salir para terminar.   [ayuda · None]
+  Mariana: Hasta luego
+  OrientaBot: ¡Hasta luego! Gracias por consultar OrientaBot.   [despedida · None]
+
+=== Flujo 21 · FALLIDO · Pierde el contexto al cambiar de tema · ✅ ===
+  Iba a renovar su beca, pregunta su horario y al volver el bot ya olvidó «renovar»
+  Andrés: quiero renovar mi beca
+  OrientaBot: Con gusto. Renovación. ¿Tu duda es sobre documentos o sobre el promedio que piden?   [becas · becas_renovar]
+  Andrés: ¿dónde veo mi horario?
+  OrientaBot: Consulta tu horario en el sistema escolar institucional. Si existe algún problema con tu grupo o materia, contacta a Control Escolar.   [horarios · None]
+  Andrés: ¿y lo de la beca?
+  OrientaBot: Con gusto. ¿Quieres solicitar una beca, renovar la que tienes, o la perdiste?   [becas · becas]
+  Andrés: adios
+  OrientaBot: ¡Hasta luego! Gracias por consultar OrientaBot.   [despedida · None]
+
+21/21 flujos se comportan como se declaró.
